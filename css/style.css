@@ -187,7 +187,7 @@ header {
   position: absolute;
   right: 1em;
   top: 1em;
-  z-index: 100;
+  z-index: 1000;
 }
 
 .nav-open .nav{
