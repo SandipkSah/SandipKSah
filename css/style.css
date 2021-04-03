@@ -330,6 +330,9 @@ header {
   }
 }
 
+
+/* ABOUT ME */
+
 .about-me {
   max-width: 1000px;
   margin: auto;
@@ -337,6 +340,10 @@ header {
 
 .about-me-img {
   box-shadow: var(--bs);
+}
+
+.about-me-subtitle{
+  max-width:60%;
 }
 
 @media (min-width: 600px) {
