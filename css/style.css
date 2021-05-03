@@ -343,6 +343,8 @@ margin: auto;
 
 .about-me-img {
 box-shadow: var(--bs);
+width: 11rem;
+height:8rem
 }
 
 .about-me-subtitle {
