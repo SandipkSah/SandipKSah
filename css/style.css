@@ -421,6 +421,8 @@ grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 .portfolio-item {
 background: var(--clr-accent);
 overflow: hidden;
+border: rgb(231, 10, 10);
+margin: 5px;
 }
 
 .portfolio-img {
