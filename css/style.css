@@ -414,8 +414,8 @@ text-align: center;
 
 
 .portfolio {
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+display: flex;
+/* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
 }
 
 .portfolio-item {
