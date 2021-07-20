@@ -593,6 +593,8 @@ outline: 0;
 transition: background-color 2s ease-out;
 }
 
+
+
 /* LARGE SCREENS */
 @media(min-width:700px) {
 
