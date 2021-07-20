@@ -344,12 +344,12 @@ margin: auto;
 .about-me-img {
 box-shadow: var(--bs);
 width: 11rem;
-height:8rem
+height: 8rem
 }
 
-.about-me-subtitle {
+/* .about-me-subtitle {
 max-width: 60%;
-}
+} */
 
 @media(min-width: 600px) {
 .about-me {
@@ -382,12 +382,12 @@ max-width: 60%;
 
 /* MY WORK */
 
-.section-title-my-work{
-    text-align: center;
+.section-title-my-work {
+text-align: center;
 }
 
 .my-work-img-container {
-position:relative;
+position: relative;
 width: auto;
 height: auto;
 object-fit: cover;
@@ -417,8 +417,8 @@ text-align: center;
 
 
 .portfolio {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
 }
 
 .portfolio-item {
