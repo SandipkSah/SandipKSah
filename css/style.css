@@ -453,6 +453,10 @@ opacity: 0.5;
     }
 
 /* CONTACT */
+.contact_form{
+    max-width: 1000px;
+    margin: auto;
+    }
 
 .section-title-contact-me {
 text-align: center;
