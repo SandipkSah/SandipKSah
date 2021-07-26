@@ -212,23 +212,26 @@
             <div class="wrapper animated bounceInLeft">
                 <div class="contact" id="contactMe">
                     <h3 style="text-align: center;">Hit me Up</h3>
-                    <iframe name="dummyframe" id="dummyframe" style="width: fit-content;"></iframe>
-                    <form action="https://formsubmit.co/sandipsah703@gmail.com" method="POST" target="dummyframe">
-                        <input type="hidden" name="_captcha" value="false">
+                   
+                    <form action="https://formsubmit.co/sandipsah703@gmail.com" method="POST" target="_blank">
+                        <!-- <form target="dummyframe" onsubmit="showConfirmation(this)"> -->
+
+                        <input
+                         type="hidden" name="_captcha" value="false">
                         <p>
                             <label>Name<span style="color: red;" >*</span>
                             </label>
-                            <input type="text" name="name" >
+                            <input type="text" name="name" required>
                         </p>
                         <p>
                             <label>Company<span style="color: red;">*</span>
                             </label>
-                            <input type="text" name="company">
+                            <input type="text" name="company" required>
                         </p>
                         <p>
                             <label>Email Address<span style="color: red;">*</span>
                             </label>
-                            <input type="email" name="email" >
+                            <input type="email" name="email" required>
                         </p>
                         <p>
                             <label>Phone Number<span style="font-size: 0.8rem;">(optional)</span>
@@ -242,14 +245,27 @@
                         </p>
                         
                         <p class="full">
-                            <button  onclick="showConfirmation()">Submit</button>
+                            <button >Submit</button>
                         </p>
                     </form>
                 </div>
             </form>
         </div>
     </div>
-</body></section><!-- FOOTER --><footer class="footer">
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+</section><!-- FOOTER --><footer class="footer">
 <a href="mail:sandipsah1205@gmail.com" class="footer-link">
     sandipsah1205@gmail.com
 </a>
