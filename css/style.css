@@ -26,6 +26,8 @@ html {
     --bs: 0.25em 0.25em 0.75em rgba(0, 0, 0, 55) 0.125rem 0.125rem 0.25rem rgba(0, 0, 0, 0.25);
 }
 
+
+
 @media(min-width: 800px){:root {
     --fs-h1: 4.5rem;
     --fs-h2: 3.75rem;
@@ -418,7 +420,7 @@ text-align: center;
 
 .portfolio {
 display: grid;
-grid-template-columns: 1fr 1fr 1fr;
+grid-template-columns: repeat(auto-fill, [col-start] minmax(500px, 1fr) [col-end]);
 }
 
 .portfolio-item {
@@ -443,11 +445,75 @@ transform: scale(1.2);
 opacity: 0.5;
 }
 
+@media(max-width:700px) {
+    .portfolio {
+        display: grid;
+        grid-template-columns: 1fr;
+        }
+    }
+
 /* CONTACT */
 
 .section-title-contact-me {
 text-align: center;
 }
+
+/* FORM STYLES */
+.contact form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    }
+    
+    .contact form label {
+    display: block;
+    }
+    
+    .contact form p {
+    margin: 0;
+    }
+    
+    .contact form .full {
+    grid-column: 1 / 3;
+    }
+    
+    .contact form button,
+    .contact form input,
+    .contact form textarea {
+    width: 100%;
+    padding: 1em;
+    border: 1px solid #c9e6ff;
+    }
+    
+    .contact form button {
+    background: #0c6823;
+    border: 0;
+    text-transform: uppercase;
+    cursor: pointer;
+    }
+    
+    .contact form button:hover,
+    .contact form button:focus {
+    color: #fff;
+    outline: 0;
+    transition: background-color 2s ease-out;
+    }
+    
+    
+    
+    /* LARGE SCREENS */
+    @media(min-width:700px) {
+    
+    .wrapper > * {
+        padding: 2em;
+    }
+    
+    .company-info h3,
+    .company-info ul,
+    .brand {
+        text-align: left;
+    }
+    }
 
 
 /* FOOTER */
@@ -550,61 +616,4 @@ margin: 0 0 1rem;
 background: #f9feff;
 }
 
-/* FORM STYLES */
-.contact form {
-display: grid;
-grid-template-columns: 1fr 1fr;
-grid-gap: 20px;
-}
 
-.contact form label {
-display: block;
-}
-
-.contact form p {
-margin: 0;
-}
-
-.contact form .full {
-grid-column: 1 / 3;
-}
-
-
-.contact form button,
-.contact form input,
-.contact form textarea {
-width: 100%;
-padding: 1em;
-border: 1px solid #c9e6ff;
-}
-
-.contact form button {
-/* background:#c9e6ff; */
-background: #0c6823;
-border: 0;
-text-transform: uppercase;
-cursor: pointer;
-}
-
-.contact form button:hover,
-.contact form button:focus {
-color: #fff;
-outline: 0;
-transition: background-color 2s ease-out;
-}
-
-
-
-/* LARGE SCREENS */
-@media(min-width:700px) {
-
-.wrapper > * {
-    padding: 2em;
-}
-
-.company-info h3,
-.company-info ul,
-.brand {
-    text-align: left;
-}
-}
