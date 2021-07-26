@@ -11,7 +11,8 @@ navLinks.forEach((link) => {
   });
 });
 
-function showAlert() {
+function showConfirmation() {
+    console.log("formmm");
   var paragraph = document.getElementById("contactMe");
   paragraph.textContent = "Thank You, Your response has been recorded";
   paragraph.style.textAlign = "center"

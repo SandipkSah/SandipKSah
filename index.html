@@ -211,7 +211,8 @@
             <div class="wrapper animated bounceInLeft">
                 <div class="contact" id="contactMe">
                     <h3 style="text-align: center;">Hit me Up</h3>
-                    <form action="https://formsubmit.co/sandipsah703@gmail.com" method="POST">
+                    <iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
+                    <form action="https://formsubmit.co/sandipsah703@gmail.com" method="POST" target="dummyframe">
                         <p>
                             <label>Name<span style="color: red;" >*</span>
                             </label>
@@ -238,7 +239,7 @@
                             <textarea name="message" rows="5"></textarea>
                         </p>
                         <p class="full">
-                            <button >Submit</button>
+                            <button onclick="showConfirmation()" >Submit</button>
                         </p>
                     </form>
                 </div>
