@@ -13,7 +13,7 @@ navLinks.forEach((link) => {
 
 function showConfirmation(form) {
   var paragraph = document.getElementById("contactMe");
-  paragraph.textContent = "Thank You, Your response has been recorded \n I will ,prolly, text you within few hours ";
+  paragraph.textContent = "Thank You, Your response has been recorded <br> I will ,prolly, text you within few hours ";
   paragraph.style.textAlign = "center";
   var contact_title = document.getElementById("contact-me-title");
   contact_title.parentNode.removeChild(contact_title);
