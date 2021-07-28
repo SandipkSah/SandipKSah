@@ -33,7 +33,7 @@ function showConfirmation(form) {
 
   console.log("the submitted form values are", submittedData);
 
-  fetch("https://formsubmit.co/ajax/sandipsah703@email.com", {
+  fetch("https://formsubmit.co/ajax/sandipsah703@gmail.com", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
