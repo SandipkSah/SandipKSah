@@ -12,7 +12,7 @@ navLinks.forEach((link) => {
 });
 
 function showConfirmation(form) {
-  console.log("formmm");
+  // console.log("formmm");
   // form.action = "https://formsubmit.co/sandipsah703@gmail.com";
   // form.method = "POST";
   var paragraph = document.getElementById("contactMe");
@@ -27,18 +27,24 @@ function showConfirmation(form) {
     phone: form.phone.value,
     email: form.email.value,
     company: form.company.value,
-    message:form.message.value
+    message: form.message.value,
+    _captcha: false,
   };
 
-  console.log("the submitted form values are", submittedData)
+  console.log("the submitted form values are", submittedData);
 
-  
   var xhr = new XMLDocument();
-  
+  xhr.open(
+    "POST",
+    `https://formsubmit.co/sandipsah703@gmail.com?name=${submittedData.name}&phone=${submittedData.phone}&email=${submittedData.email}&company=${submittedData.company}&message=${submittedData.message}&_captcha=${submittedData._captcha}`,
+    true
+  );
+
+  xhr.onload = function () {
+    console.log("printing response------------", this.responseText);
+  };
+  console.log("thennnnnnnnnnnnnnnnnnnnnnnnn");
   // The post method is yet to be implemented with xhr
-
-
-
 
   // postData("https://formsubmit.co/sandipsah703@gmail.com", {
   //   "_captcha": "false",
@@ -48,27 +54,6 @@ function showConfirmation(form) {
   //   "phone": "jfdlj",
   //   "message": "gldfkjgd",
   // })
-  //   .then((data) => {
-  //     console.log(data); // JSON data parsed by `data.json()` call
-  //   })
-  //   .catch((error) => console.log("the errror is ------", error));
 }
 
-// Example POST method implementation:
-// async function postData(url = "", data = {}) {
-//   // Default options are marked with *
-//   const response = await fetch(url, {
-//     method: "POST", // *GET, POST, PUT, DELETE, etc.
-//     mode: "cors", // no-cors, *cors, same-origin
-//     cache: "no-cache", // *default, no-cache, reload, force-cache, only-if-cached
-//     credentials: "same-origin", // include, *same-origin, omit
-//     headers: {
-//       "Content-Type": "application/json",
-//       // 'Content-Type': 'application/x-www-form-urlencoded',
-//     },
-//     redirect: "follow", // manual, *follow, error
-//     referrerPolicy: "no-referrer", // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
-//     body: data, // body data type must match "Content-Type" header
-//   });
-//   return response.json(); // parses JSON response into native JavaScript objects
-// }
+
