@@ -1,333 +1,302 @@
 <!DOCTYPE html>
 
 <head lang="en">
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1." />
-  <title>Sandip Sah</title>
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-    crossorigin="anonymous"
-  />
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.css"
-    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-    crossorigin="anonymous"
-  />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1." />
+    <title>Sandip Sah</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
 
-  <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
 
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
 
-  <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
-    rel="stylesheet"
-  />
-  <script
-    src="https://kit.fontawesome.com/aad2eb6321.js"
-    crossorigin="anonymous"
-  ></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/aad2eb6321.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <header>
-    <div class="logo">
-      <img src="img/port_logo.jpeg" width="100px" alt="profie" />
+    <header>
+        <div class="navbar">
+            <a class="button" href="#intro">About me</a>
+            <a class="button" href="#experience">Experience</a>
+            <a class="button" href="#projects">Projects</a>
+            <a class="button" href="#contact">Contact</a>
+        </div>
+    </header>
+
+    <div class="intro" id="intro">
+        <div class="profile_text">
+            <div class="title">Sandip Sah</div>
+            <div class="description">A tech enthusiast, continuously learning
+                new technology to avoid boredom in life. Please, Don't call me a "Nerd"
+            </div>
+        </div>
+        <div class="profile_pic"></div>
     </div>
-    <button class="nav-toggle" aria-label="toggle navigation">
-      <span class="hamburger"></span>
-    </button>
 
-    <nav class="nav">
-      <ul class="nav-list">
-        <li class="nav-items">
-          <a href="#home" class="nav-link">Home</a>
-        </li>
-        <li class="nav-items">
-          <a href="#services" class="nav-link">My services</a>
-        </li>
-        <li class="nav-items">
-          <a href="#about" class="nav-link">About me</a>
-        </li>
-        <li class="nav-items">
-          <a href="#work" class="nav-link">My Work</a>
-        </li>
-        <li class="nav-items">
-          <a href="#Write" class="nav-link">Write Me</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
+    <div class="section_title">
+        Experience
+    </div>
+    <div class="experience" id="experience">
+        <div class="cards">
+            <div class="company">
+                Siemens AG, Munich
+            </div>
+            <div class="time_period">
+                October 2021 - present
+            </div>
+            <div class="role">
+                Working Student as DevSecOps
+            </div>
+            <div class="description">responsible for developing frontend of a security report analysing software</div>
+        </div>
+        <div class="cards">
+            <div class="company">
+                Acronis, Munich
+            </div>
+            <div class="time_period">
+                February 2023 - present
+            </div>
+            <div class="role">
+                Bachelor thesis
+            </div>
+            <div class="description">
+                Bachelor thesis in the topic "Classification of threat using AI model"
+            </div>
+        </div>
 
-  <!-- INTRO -->
-  <section class="intro" id="home">
-    <h1 class="section-title section-title-intro">
-      Hello, I am
-      <strong>Sandip Sah</strong>
-    </h1>
-    <p class="section-subtitle section-subtitle-intro">
-      Looking for werkstudent job in web development
-    </p>
-    <img src="img/profile.jpg" alt="profile" class="intro-img" />
-  </section>
+        <div class="cards">
+            <div class="company">
+                AWO, Bremen
+            </div>
+            <div class="time_period">
+                September 2022 - present
+            </div>
+            <div class="role">
+                Volunteer
+            </div>
+            <div class="description">
+                fixing bike in bike repair workshop, cuz I love working with bike
+            </div>
+        </div>
+        <!-- <div class="cards">
+            <div class="company">
+                Jacobs University Bremen
+            </div>
+            <div class="time_period">
+                October 2022 - present
+            </div>
+            <div class="role">
+                Teaching Assistant
+            </div>
+            <div class="description">
+                tutoring for Distributed algorithm
+            </div>
+        </div> -->
+    </div>
 
-  <!-- MY SERVICES -->
-  <section class="my-services" id="services">
-    <h2 class="section-title service-title-intro">My skills</h2>
-    <div class="services">
-      <div class="service">
-        <h3>Frontend</h3>
+    <div class="section_title">
+        Skills
+    </div>
+    <div class="skill" id="skill">
+        <div class="web_deployment">
+            <div class="title">Web Development</div>
+            <div class="list">
+                <p>HTML, CSS, JS(and TS)</p>
+                <p>NodeJS, ReactJS, NEXTJS</p>
+                <p>PHP </p>
+                <p>Flask, Django</p>
+                <p>Figma and AdobeXD</p>
+            </div>
+
+        </div>
+        <div class="deployment">
+            <div class="title">Deployment</div>
+            <div class="list">
+                <p>Docker</p>
+                <p>Netlify</p>
+                <p>AWS</p>
+            </div>
+
+        </div>
+        <div class="database">
+            <div class="title">Database</div>
+            <div class="list">
+                <p>MYSQL</p>
+                <p>Firebase</p>
+                <p>MongoDB</p>
+            </div>
+
+        </div>
+        <div class="known_programming_languages">
+            <div class="title">Programming Language</div>
+            <div class="list">
+                <p>JS and TS</p>
+                <p>python</p>
+                <p>C and C++</p>
+                <p>Haskell</p>
+                <p>Dart</p>
+            </div>
+
+        </div>
+        <div class="other_skill">
+            <div class="title">Other Skill</div>
+            <div class="list">
+                <p>Git, Github and Gitlab for VCS</p>
+                <p>postman for api testing</p>
+                <p>Linux knowledge</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="section_title">
+        Projects
+    </div>
+    <div class="work" id="projects">
+        <div class="project_container"><a href="https://phloemrequest.netlify.app/" class="portfolio-item">
+                <div class="my-work-img-container">
+                    <img src="./img/phloem_project.png" alt="site Image" />
+                    <div class="my-work-img-text">
+                        <p>Phloem --make and fulfill request </p>
+                    </div>
+                </div>
+            </a></div>
+        <div class="project_container">
+            <a href="https://e-commsite.netlify.app/" class="portfolio-item">
+                <div class="my-work-img-container">
+                    <img src="./img/e-commerce.png" alt="site Image" />
+                    <div class="my-work-img-text">
+                        <p>E-commerce site using react</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="project_container">
+            <a href="https://mernexerciisetracker.netlify.app/" class="portfolio-item">
+                <div class="my-work-img-container">
+                    <img src="./img/mern_exercise.png" alt="Some Image" />
+                    <div class="my-work-img-text">
+                        <p>Exercise tracker using MERN stack</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="project_container"><a href="https://firebase-authentication-page.netlify.app/"
+                class="portfolio-item">
+                <div class="my-work-img-container">
+                    <img src="./img/firebase_project.png" alt="Some Image" />
+                    <div class="my-work-img-text">
+                        <p>Login System with Firebase Authorization</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="project_container"><a href="https://berlintransportstopinfo.netlify.app/" class="portfolio-item">
+                <div class="my-work-img-container">
+                    <img src="./img/Berlin_transport.png" alt="Some Image" />
+                    <div class="my-work-img-text">
+                        <p>Berlin transport stop info app</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="project_container"><a href="https://sandipksah.github.io/Redux_to_do_app/" class="portfolio-item">
+                <div class="my-work-img-container">
+                    <img src="./img/redux_to_do.png" alt="Some Image" />
+                    <div class="my-work-img-text">
+                        <p>To do app using redux for state management</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="project_container"><a href="http://SandipkSah.github.io/twitter_clone" class="portfolio-item">
+                <div class="my-work-img-container">
+                    <img src="./img/twitter_clone.png" alt="Some Image" />
+                    <div class="my-work-img-text">
+                        <p>Twitter clone</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="section_title" id="contact">
+        Did I impress you?
+    </div>
+    <div class="contact_form" id="Write">
+        <div class="container">
+            <div class="wrapper animated bounceInLeft">
+                <div class="contact" id="contactMe">
+                    <h3 style="text-align: center">Hit me Up</h3>
+                    <form onsubmit="showConfirmation(this)">
+                        <input type="hidden" name="_captcha" value="false" />
+                        <p>
+                            <label>Name<span style="color: red">*</span> </label>
+                            <input type="text" name="name" required />
+                        </p>
+                        <p>
+                            <label>Company<span style="color: red">*</span> </label>
+                            <input type="text" name="company" required />
+                        </p>
+                        <p>
+                            <label>Email Address<span style="color: red">*</span></label>
+                            <input type="email" name="email" required />
+                        </p>
+                        <p>
+                            <label>Phone Number<span style="font-size: 0.8rem">(optional)</span>
+                            </label>
+                            <input type="text" name="phone" />
+                        </p>
+                        <p class="full">
+                            <label>Message<span style="color: red">*</span> </label>
+                            <textarea name="message" rows="5" required></textarea>
+                        </p>
+
+                        <p class="full">
+                            <button>Submit</button>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
         <p>
-          HTML5
-          <br />
-          CSS3
-          <br />
-          reactJS(and its libraries)
-          <br />
-          Redux
-          <br />
-          Jquery
+            <a href="mail:sandipsah703@gmail.com">
+                <i class="fas fa-envelope"></i>
+            </a>
         </p>
-      </div>
-      <div class="service">
-        <h3>Backend</h3>
+
         <p>
-          NodeJS
-          <br />
-          Express
-          <br />PHP
-          <br />
+            <a href="https://www.facebook.com/sah.sandip.1205/" class="social-list-link">
+                <i class="fab fa-facebook-square"></i>
+            </a>
         </p>
-      </div>
-      <div class="service">
-        <h3>Database</h3>
+
         <p>
-          MongoDB
-          <br />
-          Firebase
+            <a href="https://www.linkedin.com/in/sandip-sah-121367180" class="social-list-link">
+                <i class="fab fa-linkedin"></i>
+            </a>
         </p>
-      </div>
-      <div class="service">
-        <h3>Known languages</h3>
+
         <p>
-          JS(and TS)
-          <br />
-          C and C++
-          <br />
-          python
-          <br />
+            <a href="https://twitter.com/SandipS1205" class="social-list-link">
+                <i class="fab fa-twitter"></i>
+            </a>
         </p>
-      </div>
-      <div class="service">
-        <h3>other Skill</h3>
+
         <p>
-          Git
-          <br />
-          Linux
-          <br />
-          MS Office
-          <br />
-          LaTeX
-          <br />
-          WordPress
-          <br />
+            <a href="https://github.com/SandipkSah" class="social-list-link">
+                <i class="fab fa-github"></i>
+            </a>
         </p>
-      </div>
-    </div>
-    <a href="#work" class="btn">My work</a>
-  </section>
 
-  <!-- ABOUT ME -->
-  <section class="about me" id="about">
-    <h2 class="section-title section-title-about">Who I am</h2>
-    <p class="section-subtitle section-subtitle-about"></p>
-    <div class="about-me-body">
-      <p class="about-me-subtitle">
-        Currently, I am a second year computer science(major) and Physics(minor)
-        student at jacobs university. I beleive, I have learned necessary
-        skilled in the field of web development to take new challenges and hope
-        to learn new skill. I am currently looking for a job(werkstudent
-        contract) in the field of web development.But I am also willing to learn
-        new technology, so I would be more than happy to take position other
-        than web developer.
-      </p>
-      <p>Hope to hear from you 😄🤞🤞</p>
-      <p>Ciao,</p>
-      <p>Sandip Sah,</p>
-    </div>
-  </section>
-
-  <!-- MY WORK -->
-  <section class="my_work" id="work">
-    <h2 class="section-title section-title-my-work">My work</h2>
-    <p class="section-subtitle section-subtitle-my-work"></p>
-
-    <div class="portfolio">
-
-      <a href="https://phloemrequest.netlify.app/" class="portfolio-item">
-        <div class="my-work-img-container">
-          <img src="./img/phloem_project.png" alt="site Image" />
-          <div class="my-work-img-text">
-            <p>Phloem --make and fulfill request </p>
-          </div>
-        </div>
-      </a>
-
-      <a href="https://e-commsite.netlify.app/" class="portfolio-item">
-        <div class="my-work-img-container">
-          <img src="./img/e-commerce.png" alt="site Image" />
-          <div class="my-work-img-text">
-            <p>E-commerce site using react</p>
-          </div>
-        </div>
-      </a>
-
-      <a
-        href="https://mernexerciisetracker.netlify.app/"
-        class="portfolio-item"
-      >
-        <div class="my-work-img-container">
-          <img src="./img/mern_exercise.png" alt="Some Image" />
-          <div class="my-work-img-text">
-            <p>Exercise tracker using MERN stack</p>
-          </div>
-        </div>
-      </a>
-
-      <a
-        href="https://firebase-authentication-page.netlify.app/"
-        class="portfolio-item"
-      >
-        <div class="my-work-img-container">
-          <img src="./img/firebase_project.png" alt="Some Image" />
-          <div class="my-work-img-text">
-            <p>Login System with Firebase Authorization</p>
-          </div>
-        </div>
-      </a>
-      <a
-        href="https://berlintransportstopinfo.netlify.app/"
-        class="portfolio-item"
-      >
-        <div class="my-work-img-container">
-          <img src="./img/Berlin_transport.png" alt="Some Image" />
-          <div class="my-work-img-text">
-            <p>Berlin transport stop info app</p>
-          </div>
-        </div>
-      </a>
-      <a
-        href="https://sandipksah.github.io/Redux_to_do_app/"
-        class="portfolio-item"
-      >
-        <div class="my-work-img-container">
-          <img src="./img/redux_to_do.png" alt="Some Image" />
-          <div class="my-work-img-text">
-            <p>To do app using redux for state management</p>
-          </div>
-        </div>
-      </a>
-      <a
-        href="http://SandipkSah.github.io/twitter_clone"
-        class="portfolio-item"
-      >
-        <div class="my-work-img-container">
-          <img src="./img/twitter_clone.png" alt="Some Image" />
-          <div class="my-work-img-text">
-            <p>Twitter clone</p>
-          </div>
-        </div>
-      </a>
-    </div>
-    <div>
-      Click on the project to view their deployment <br />please visit
-      <a href="https://github.com/SandipkSah">my github account</a>
-      for more projects
-    </div>
-  </section>
-
-  <!-- MY Contact form -->
-  <section class="contact_form" id="Write">
-    <h2 class="section-title section-title-contact-me" id="contact-me-title">
-      Did I impress You
-    </h2>
-    <div class="container">
-      <div class="wrapper animated bounceInLeft">
-        <div class="contact" id="contactMe">
-          <h3 style="text-align: center">Hit me Up</h3>
-          <form onsubmit="showConfirmation(this)">
-            <input type="hidden" name="_captcha" value="false" />
-            <p>
-              <label>Name<span style="color: red">*</span> </label>
-              <input type="text" name="name" required/>
-            </p>
-            <p>
-              <label>Company<span style="color: red">*</span> </label>
-              <input type="text" name="company" required/>
-            </p>
-            <p>
-              <label>Email Address<span style="color: red">*</span></label>
-              <input type="email" name="email" required/>
-            </p>
-            <p>
-              <label
-                >Phone Number<span style="font-size: 0.8rem">(optional)</span>
-              </label>
-              <input type="text" name="phone" />
-            </p>
-            <p class="full">
-              <label>Message<span style="color: red">*</span> </label>
-              <textarea name="message" rows="5" required></textarea>
-            </p>
-
-            <p class="full">
-              <button>Submit</button>
-            </p>
-          </form>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- FOOTER -->
-
-  <footer class="footer">
-    <a href="mail:sandipsah1205@gmail.com" class="footer-link">
-      sandipsah1205@gmail.com
-    </a>
-    <ul class="social-list">
-      <li class="social-list-item">
-        <a
-          href="https://www.facebook.com/sah.sandip.1205/"
-          class="social-list-link"
-        >
-          <i class="fab fa-facebook-square"></i>
-        </a>
-      </li>
-
-      <li class="social-list-item">
-        <a
-          href="https://www.linkedin.com/in/sandip-sah-121367180"
-          class="social-list-link"
-        >
-          <i class="fab fa-linkedin"></i>
-        </a>
-      </li>
-
-      <li class="social-list-item">
-        <a href="https://twitter.com/SandipS1205" class="social-list-link">
-          <i class="fab fa-twitter"></i>
-        </a>
-      </li>
-
-      <li class="social-list-item">
-        <a href="https://github.com/SandipkSah" class="social-list-link">
-          <i class="fab fa-github"></i>
-        </a>
-      </li>
-    </ul>
-  </footer>
-  <script type="text/javascript" src="./js/index.js"></script>
+    </footer>
+    <script type="text/javascript" src="./js/index.js"></script>
 </body>
