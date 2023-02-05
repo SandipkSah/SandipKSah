@@ -83,7 +83,7 @@ function showConfirmation(form) {
       success = true;
       console.log("in the fetch", success);
     })
-    .catch((error) => console.log(error));
+    .catch((error) => console.log("something went wrong", error));
 
   console.log("at last", success);
 }
