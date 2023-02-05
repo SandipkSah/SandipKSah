@@ -98,7 +98,6 @@ body {
 }
 
 .experience>.cards {
-    /* width: 25%; */
     background-color: aquamarine;
     padding: 5px 10px;
     min-height: 100%;
@@ -137,7 +136,7 @@ body {
 .skill>div {
     border: 2px solid green;
     width: 18vw;
-    height: 45vh;
+    height: 50vh;
     overflow-y: auto;
     text-align: center;
     border-radius: 1rem;
