@@ -102,26 +102,27 @@ body {
     padding: 5px 10px;
     min-height: 100%;
     height: 28vh;
-    width: 25vw;
+    width: 20vw;
     border-radius: 0.25rem;
 }
 
 .experience>.cards>.company {
-    font-size: 2rem;
+    font-size: 4vh;
 }
 
 .experience>.cards>.time_period {
-    font-size: 0.75rem;
+    font-size: 1.5vh;
     color: gray;
 
 }
 
 .experience>.cards>.role {
-    font-size: 1.5rem;
+    font-size: 3.5vh;
+    padding: 3px 0;
 }
 
 .experience>.cards>.description {
-    font-size: 0.75rem;
+    font-size: 2.5vh;
 }
 
 
